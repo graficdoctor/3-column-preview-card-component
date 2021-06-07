@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/graficdoctor/3-column-preview-card-component/blob/main/index.html)
 - Live Site URL: [https://3-column-preview-card-component-xi-two.vercel.app/](https://3-column-preview-card-component-xi-two.vercel.app/)
 
 ## My process
