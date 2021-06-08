@@ -58,12 +58,13 @@ body {
   font-family: inherit;
   transition: 0.4s;
   cursor: pointer;
+  background: var(--clr-neutral-02)
 }
 
 .btn:hover,
 .btn:focus {
-  border: 2px solid var(--clr-neutral-01);
-  color: var(--clr-neutral-01);
+  border: 2px solid var(--clr-neutral-02);
+  color: var(--clr-neutral-02);
 }
 
 /* Typography */
