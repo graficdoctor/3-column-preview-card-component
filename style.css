@@ -32,6 +32,8 @@ body {
 .container {
   width: 90%;
   margin: 2em 0;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 @media (min-width: 800px) {
@@ -58,7 +60,7 @@ body {
   font-family: inherit;
   transition: 0.4s;
   cursor: pointer;
-  background: var(--clr-neutral-02)
+  background: var(--clr-neutral-02);
 }
 
 .btn:hover,
@@ -97,11 +99,6 @@ p {
   justify-content: space-between;
 }
 
-.card-01 {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
 .card-01,
 .btn-01:hover,
 .btn-01:focus {
@@ -122,11 +119,6 @@ p {
   color: var(--clr-primary-02);
 }
 
-.card-03 {
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
 .card-03,
 .btn-03:hover,
 .btn-03:focus {
@@ -135,17 +127,6 @@ p {
 
 .btn-03 {
   color: var(--clr-primary-03);
-}
-
-@media (min-width: 800px) {
-  .card-01 {
-    border-bottom-left-radius: 8px;
-    border-top-right-radius: 0px;
-  }
-  .card-03 {
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 0px;
-  }
 }
 
 /* Footer */
